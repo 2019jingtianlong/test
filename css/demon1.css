@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,input,select,textarea,td{
+	margin:0;
+	padding:0;
+	}
+	ul,li,ol{
+		list-style: none;
+	}
+	body{
+		font-family: "微软雅黑";
+		background: #eeeeee;
+	}
+	a{
+		text-decoration: none;
+	}
+	img{
+		border: 0;
+	}
+	/*add*/
+	.back{
+		width: 1000px;
+		height: 584px;
+		/*position: fixed;
+		top: 50%;
+		left: 50%;
+		margin-left: -500px;
+		margin-top: -292px;*/
+		margin:50px auto 10px;
+		background: green;
+		display: flex;
+		justify-content: space-between;
+	}
+	.img{
+
+	}
+	.inp{
+		background:white;
+	}
+	.inp h1{
+		text-align: center;
+		font-size: 28px;
+		color: #3b3e40;
+		padding-top: 84px;
+		line-height: 56px;
+		font-weight: normal;
+	}
+	form input{
+		width: 298px;
+		height: 46px;
+		border-radius: 2px;
+		border: 1px solid #dddddd;
+		margin-bottom: 20px;
+		margin-left: 100px;
+		font-size: 14px;
+		color: #979797;
+
+	}
+	form input{
+		width: 298px;
+		height: 46px;
+		border-radius: 1px;
+		border: 1px solid #dddddd;
+		/*padding-left: 10px;*/
+	}
+	form input:nth-child(3){
+		width: 300px;
+		height: 48px;
+		border-radius: 1px;
+		border: 1px solid #44a8f2;
+		background: #44a8f2;
+		cursor: pointer;
+		color: white;
+	}
+	.inp .uu{
+		font-size: 14px;
+		color: #44a8f2;
+		line-height: 27px;
+		margin-bottom: 47px;
+		padding-left: 215px;
+	}
+	.inp p{
+		font-size: 15px;
+		color: #707473;
+		line-height: 43px;
+		text-align: center;
+		margin-top: 47px;
+	}
+	.ll{
+		width: 298px;
+		height: 46px;
+		border-radius: 1px;
+		border: 1px solid #47b247;
+		background: #47b247;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+
+	}
+	.ll a{
+		color: white;
+	}
+
+	.ll img{
+		padding-right: 5px;
+	}
+	/*footer*/
+	.footer{
+		/*display: flex;
+		justify-content: center;*/
+		/*margin-top: 645px;*/
+		overflow: hidden;
+	}
+	.footer div{
+		display: flex;
+		justify-content: center;
+		color: #97979e;
+		font-size: 12px;
+		line-height: 23px;
+	}
+	.footer a{
+		display: flex;
+		justify-content: center;
+		color: #97979e;
+		font-size: 12px;
+		text-decoration: underline;
+		padding-left: 5px;
+	}
+
+
